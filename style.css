@@ -1,0 +1,68 @@
+.card {
+    background: rgb(2,0,36);
+    background: linear-gradient(160deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+display: flex;
+width: 780px;
+border-radius: 16px;
+
+}
+
+.photo-profile {
+    width: 320px;
+    border-radius: 16px 0px 0px 16px;
+    object-fit: cover;
+}
+
+.col-2 {
+text-align: left;
+margin-left: 10px;
+font-family: "Outfit", serif;
+color: black;
+color: white;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.work {
+    font-size: 18px;
+}
+
+.midz {
+height: 80px;
+width: 80px;
+margin-top: 20px;
+}
+
+.instagram {
+    height: 28px;
+}
+
+.sosmed {
+    display: flex;
+    align-items: center;
+    border: 2px white solid;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.tambahan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
